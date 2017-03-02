@@ -23,7 +23,7 @@ pip install https://software.ecmwf.int/wiki/download/attachments/56664858/ecmwf-
 ```
 
 ### Usage
-usage: interim.py [-h] [--pl PL] [--sfc SFC] [--date2 DATE2]
+usage: download_interim [-h] [--pl PL] [--sfc SFC] [--date2 DATE2]
                   [--datadir DATADIR] --date DATE
 
 Download ERA-Interim fields (pl and sfc) to be used as WRF boundaries.
